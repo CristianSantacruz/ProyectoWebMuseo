@@ -12,11 +12,12 @@
 <a:Code>MODELOAPPWEBMUSEO</a:Code>
 <a:CreationDate>1518007465</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007478</a:ModificationDate>
+<a:ModificationDate>1519024842</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <a:History>ORG {75E30197-F2B8-4CA0-8F20-4F5FD30FB918}
-DAT 1518007478
-ATT FOPT</a:History>
+DAT 1519013939
+ATT FOPT
+DLD {108F3DD4-54A6-45AF-9422-4E451A40E02D}</a:History>
 <a:PackageOptionsText>[FolderOptions]
 
 [FolderOptions\Physical Objects]
@@ -2386,9 +2387,9 @@ PhysOpts=</a:ModelOptionsText>
 <a:ObjectID>1A77DB53-BDF4-42FE-ACBE-481C3A749F1D</a:ObjectID>
 <a:Name>ModeloAppWebMuseo</a:Name>
 <a:Code>MODELOAPPWEBMUSEO</a:Code>
-<a:CreationDate>1518007478</a:CreationDate>
+<a:CreationDate>1519013939</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007478</a:ModificationDate>
+<a:ModificationDate>1519013939</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <a:TargetStereotype/>
 <a:TargetID>75E30197-F2B8-4CA0-8F20-4F5FD30FB918</a:TargetID>
@@ -2959,13 +2960,14 @@ Shadow color=192 192 192
 Shadow=0
 
 [DisplayPreferences\CDM]</a:DisplayPreferences>
+<a:PaperSize>(8500, 11000)</a:PaperSize>
 <a:PageMargins>((124,139), (170,139))</a:PageMargins>
 <a:PageOrientation>19303</a:PageOrientation>
 <a:PaperSource>19303</a:PaperSource>
 <c:Symbols>
 <o:TableSymbol Id="o6">
-<a:ModificationDate>1518007478</a:ModificationDate>
-<a:Rect>((-30354,3242), (-11944,12956))</a:Rect>
+<a:ModificationDate>1519013939</a:ModificationDate>
+<a:Rect>((-31512,3729), (-10786,12469))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
 <a:FillColor>16777136</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2986,7 +2988,7 @@ TableComment 0 Arial,8,N</a:FontList>
 </c:Object>
 </o:TableSymbol>
 <o:TableSymbol Id="o8">
-<a:ModificationDate>1518007478</a:ModificationDate>
+<a:ModificationDate>1519013939</a:ModificationDate>
 <a:Rect>((-1852,6129), (13854,12921))</a:Rect>
 <a:LineColor>11184640</a:LineColor>
 <a:FillColor>16777136</a:FillColor>
@@ -3020,7 +3022,7 @@ TableComment 0 Arial,8,N</a:FontList>
 <a:Code>RESERVA_ECOLOGICA</a:Code>
 <a:CreationDate>1518007476</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007478</a:ModificationDate>
+<a:ModificationDate>1519024842</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <a:History>ORG {C66E7B6E-F4E3-47B1-AF55-D61641050AD5}
 DAT 1518007478</a:History>
@@ -3046,55 +3048,43 @@ ATT IDNT</a:History>
 <a:Code>NOMBRERESERVAECOLOGICA</a:Code>
 <a:CreationDate>1518007476</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007476</a:ModificationDate>
+<a:ModificationDate>1519013939</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <a:History>ORG {7BA44A74-9CC8-4058-96CB-44B5934F4676}
 DAT 1518007478</a:History>
-<a:DataType>varchar(50)</a:DataType>
-<a:Length>50</a:Length>
+<a:DataType>varchar(200)</a:DataType>
+<a:Length>200</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
 <o:Column Id="o12">
-<a:ObjectID>6369E088-24CA-44C8-A147-38F65776ED2F</a:ObjectID>
-<a:Name>imagenReservaEcologica</a:Name>
-<a:Code>IMAGENRESERVAECOLOGICA</a:Code>
-<a:CreationDate>1518007476</a:CreationDate>
-<a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007476</a:ModificationDate>
-<a:Modifier>Cristian</a:Modifier>
-<a:History>ORG {108F3DD4-54A6-45AF-9422-4E451A40E02D}
-DAT 1518007478</a:History>
-<a:DataType>image</a:DataType>
-</o:Column>
-<o:Column Id="o13">
 <a:ObjectID>1804A2F1-DCE3-4D19-9688-0B083F8D83C8</a:ObjectID>
 <a:Name>provinciaReservaEcologica</a:Name>
 <a:Code>PROVINCIARESERVAECOLOGICA</a:Code>
 <a:CreationDate>1518007476</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007476</a:ModificationDate>
+<a:ModificationDate>1519013939</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <a:History>ORG {785F4B31-BC0A-44C4-90C8-E9251DE61847}
 DAT 1518007478</a:History>
-<a:DataType>varchar(25)</a:DataType>
-<a:Length>25</a:Length>
+<a:DataType>varchar(50)</a:DataType>
+<a:Length>50</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o14">
+<o:Column Id="o13">
 <a:ObjectID>BC5545EE-7613-4B10-AA1A-D7615A7F167F</a:ObjectID>
 <a:Name>descripcionReservaEcologica</a:Name>
 <a:Code>DESCRIPCIONRESERVAECOLOGICA</a:Code>
 <a:CreationDate>1518007476</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007476</a:ModificationDate>
+<a:ModificationDate>1519013939</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <a:History>ORG {8E848A5F-1D73-432B-8EDE-A13CB9756547}
 DAT 1518007478</a:History>
-<a:DataType>varchar(500)</a:DataType>
-<a:Length>500</a:Length>
+<a:DataType>varchar(10000000)</a:DataType>
+<a:Length>10000000</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o15">
+<o:Column Id="o14">
 <a:ObjectID>C79BB16C-EA59-4DF7-BADD-EBCB95A6ECB1</a:ObjectID>
 <a:Name>latitudReservaEcologica</a:Name>
 <a:Code>LATITUDRESERVAECOLOGICA</a:Code>
@@ -3108,7 +3098,7 @@ DAT 1518007478</a:History>
 <a:Length>15</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o16">
+<o:Column Id="o15">
 <a:ObjectID>724D3C0E-F516-475E-B619-7CDF6AA4A48F</a:ObjectID>
 <a:Name>longitudReservaEcologica</a:Name>
 <a:Code>LONGITUDRESERVAECOLOGICA</a:Code>
@@ -3122,22 +3112,22 @@ DAT 1518007478</a:History>
 <a:Length>15</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o17">
+<o:Column Id="o16">
 <a:ObjectID>2FB14994-F7DF-4513-90C7-2FAE56537E79</a:ObjectID>
 <a:Name>sitioWebReservaEcologica</a:Name>
 <a:Code>SITIOWEBRESERVAECOLOGICA</a:Code>
 <a:CreationDate>1518007476</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
-<a:ModificationDate>1518007476</a:ModificationDate>
+<a:ModificationDate>1519013939</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <a:History>ORG {0F9346B3-DC46-4470-889A-4F857D89953E}
 DAT 1518007478</a:History>
-<a:DataType>varchar(100)</a:DataType>
-<a:Length>100</a:Length>
+<a:DataType>varchar(200)</a:DataType>
+<a:Length>200</a:Length>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o18">
+<o:Key Id="o17">
 <a:ObjectID>1318ACAD-616D-4BFD-81A7-230639922C11</a:ObjectID>
 <a:Name>PK_RESERVA_ECOLOGICA</a:Name>
 <a:Code>PK_RESERVA_ECOLOGICA</a:Code>
@@ -3153,7 +3143,7 @@ DAT 1518007478</a:History>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o19">
+<o:Index Id="o18">
 <a:ObjectID>AB004237-E391-40FE-BCA2-79A41CA42D7A</a:ObjectID>
 <a:Name>RESERVA_ECOLOGICA_PK</a:Name>
 <a:Code>RESERVA_ECOLOGICA_PK</a:Code>
@@ -3163,10 +3153,10 @@ DAT 1518007478</a:History>
 <a:Modifier>Cristian</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o18"/>
+<o:Key Ref="o17"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o20">
+<o:IndexColumn Id="o19">
 <a:ObjectID>53139315-E1B2-4CA0-ACE8-4CB007429073</a:ObjectID>
 <a:CreationDate>1518007478</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
@@ -3180,7 +3170,7 @@ DAT 1518007478</a:History>
 </o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o18"/>
+<o:Key Ref="o17"/>
 </c:PrimaryKey>
 </o:Table>
 <o:Table Id="o9">
@@ -3194,7 +3184,7 @@ DAT 1518007478</a:History>
 <a:History>ORG {8D3062AD-04F1-4489-AF47-F1BBE3AD9EE6}
 DAT 1518007478</a:History>
 <c:Columns>
-<o:Column Id="o21">
+<o:Column Id="o20">
 <a:ObjectID>123215B3-9685-4891-98DB-D9579DBA9557</a:ObjectID>
 <a:Name>idAdministrador</a:Name>
 <a:Code>IDADMINISTRADOR</a:Code>
@@ -3209,7 +3199,7 @@ ATT IDNT</a:History>
 <a:Identity>1</a:Identity>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o22">
+<o:Column Id="o21">
 <a:ObjectID>E95CC5FA-4CB7-4BAD-BAAC-F14A05583CB9</a:ObjectID>
 <a:Name>nombresAdministrador</a:Name>
 <a:Code>NOMBRESADMINISTRADOR</a:Code>
@@ -3223,7 +3213,7 @@ DAT 1518007478</a:History>
 <a:Length>25</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o23">
+<o:Column Id="o22">
 <a:ObjectID>5A1F6F85-60AB-4119-92D0-1882BC45A91C</a:ObjectID>
 <a:Name>apellidosAdministrador</a:Name>
 <a:Code>APELLIDOSADMINISTRADOR</a:Code>
@@ -3237,7 +3227,7 @@ DAT 1518007478</a:History>
 <a:Length>25</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o24">
+<o:Column Id="o23">
 <a:ObjectID>5E34ACB4-056A-43D9-8F5D-F86F028FA94E</a:ObjectID>
 <a:Name>loginAdministrador</a:Name>
 <a:Code>LOGINADMINISTRADOR</a:Code>
@@ -3251,7 +3241,7 @@ DAT 1518007478</a:History>
 <a:Length>15</a:Length>
 <a:Mandatory>1</a:Mandatory>
 </o:Column>
-<o:Column Id="o25">
+<o:Column Id="o24">
 <a:ObjectID>28827567-FF1B-4587-AD95-3D65901EB165</a:ObjectID>
 <a:Name>passwordAdministrador</a:Name>
 <a:Code>PASSWORDADMINISTRADOR</a:Code>
@@ -3267,7 +3257,7 @@ DAT 1518007478</a:History>
 </o:Column>
 </c:Columns>
 <c:Keys>
-<o:Key Id="o26">
+<o:Key Id="o25">
 <a:ObjectID>4A393C1A-F31E-4099-A8E7-042424F45355</a:ObjectID>
 <a:Name>PK_ADMINISTRADOR</a:Name>
 <a:Code>PK_ADMINISTRADOR</a:Code>
@@ -3278,12 +3268,12 @@ DAT 1518007478</a:History>
 <a:History>ORG {32A0E32C-7258-4AA0-9520-3468502476C8}
 DAT 1518007478</a:History>
 <c:Key.Columns>
-<o:Column Ref="o21"/>
+<o:Column Ref="o20"/>
 </c:Key.Columns>
 </o:Key>
 </c:Keys>
 <c:Indexes>
-<o:Index Id="o27">
+<o:Index Id="o26">
 <a:ObjectID>7201FCEF-0F9B-4284-99B4-0549339C01AE</a:ObjectID>
 <a:Name>ADMINISTRADOR_PK</a:Name>
 <a:Code>ADMINISTRADOR_PK</a:Code>
@@ -3293,29 +3283,29 @@ DAT 1518007478</a:History>
 <a:Modifier>Cristian</a:Modifier>
 <a:Unique>1</a:Unique>
 <c:LinkedObject>
-<o:Key Ref="o26"/>
+<o:Key Ref="o25"/>
 </c:LinkedObject>
 <c:IndexColumns>
-<o:IndexColumn Id="o28">
+<o:IndexColumn Id="o27">
 <a:ObjectID>D33D99A2-35E8-4C1D-AC03-EC0F5BBA2898</a:ObjectID>
 <a:CreationDate>1518007478</a:CreationDate>
 <a:Creator>Cristian</a:Creator>
 <a:ModificationDate>1518007478</a:ModificationDate>
 <a:Modifier>Cristian</a:Modifier>
 <c:Column>
-<o:Column Ref="o21"/>
+<o:Column Ref="o20"/>
 </c:Column>
 </o:IndexColumn>
 </c:IndexColumns>
 </o:Index>
 </c:Indexes>
 <c:PrimaryKey>
-<o:Key Ref="o26"/>
+<o:Key Ref="o25"/>
 </c:PrimaryKey>
 </o:Table>
 </c:Tables>
 <c:DefaultGroups>
-<o:Group Id="o29">
+<o:Group Id="o28">
 <a:ObjectID>A081F128-F00A-4FE7-AA7D-2EB9639AF477</a:ObjectID>
 <a:Name>PUBLIC</a:Name>
 <a:Code>PUBLIC</a:Code>
@@ -3326,7 +3316,7 @@ DAT 1518007478</a:History>
 </o:Group>
 </c:DefaultGroups>
 <c:TargetModels>
-<o:TargetModel Id="o30">
+<o:TargetModel Id="o29">
 <a:ObjectID>605A671C-F574-4516-AC69-1114A327ECDF</a:ObjectID>
 <a:Name>Microsoft SQL Server 2005</a:Name>
 <a:Code>MSSQLSRV2005</a:Code>
@@ -3341,7 +3331,7 @@ DAT 1518007478</a:History>
 <o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o31">
+<o:TargetModel Id="o30">
 <a:ObjectID>E6FD1EC9-F2BE-4BF8-9EE3-C67DEFD89F32</a:ObjectID>
 <a:Name>ModeloAppWebMuseo</a:Name>
 <a:Code>MODELOAPPWEBMUSEO</a:Code>

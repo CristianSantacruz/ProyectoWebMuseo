@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      Microsoft SQL Server 2005                    */
-/* Created on:     7/2/2018 7:46:13                             */
+/* Created on:     19/2/2018 2:20:57                            */
 /*==============================================================*/
 
 
@@ -36,13 +36,12 @@ go
 /*==============================================================*/
 create table RESERVA_ECOLOGICA (
    IDRESERVAECOLOGICA   int                  identity,
-   NOMBRERESERVAECOLOGICA varchar(50)          not null,
-   IMAGENRESERVAECOLOGICA image                null,
-   PROVINCIARESERVAECOLOGICA varchar(25)          not null,
-   DESCRIPCIONRESERVAECOLOGICA varchar(500)         not null,
+   NOMBRERESERVAECOLOGICA varchar(200)         not null,
+   PROVINCIARESERVAECOLOGICA varchar(50)          not null,
+   DESCRIPCIONRESERVAECOLOGICA varchar(10000000)    not null,
    LATITUDRESERVAECOLOGICA varchar(15)          not null,
    LONGITUDRESERVAECOLOGICA varchar(15)          not null,
-   SITIOWEBRESERVAECOLOGICA varchar(100)         null,
+   SITIOWEBRESERVAECOLOGICA varchar(200)         null,
    constraint PK_RESERVA_ECOLOGICA primary key nonclustered (IDRESERVAECOLOGICA)
 )
 go
